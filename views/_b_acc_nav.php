@@ -8,7 +8,7 @@
 		<ul class="nav">
 			<?php if ($baseFunctions->admin_status): ?>
 				<li class="nav-item">
-					<a class="nav-link bg-info" href="<?php echo BASE_URL; ?>/admin.php">Admin</a>
+					<a class="nav-link bg-info" href="/admin.php">Admin</a>
 				</li>
 				<li class="nav-item">
 					<hr class="divider">

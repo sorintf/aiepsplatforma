@@ -139,13 +139,13 @@
 		</div>
 	</footer>
 
-	<script src="<?php echo BASE_URL; ?>/js/jquery-3.7.1.min.js"></script>
-	<script src="<?php echo BASE_URL; ?>/js/bootstrap.bundle.min.js"></script>
-	<script src="<?php echo BASE_URL; ?>/js/custom.js"></script>
+	<script src="/js/jquery-3.7.1.min.js"></script>
+	<script src="/js/bootstrap.bundle.min.js"></script>
+	<script src="/js/custom.js"></script>
 
 	<?php if ($baseFunctions->pageSel2): ?>
-		<script src="<?php echo BASE_URL; ?>/js/select2.min.js"></script>
-		<script src="<?php echo BASE_URL; ?>/js/select-custom.js?v=<?php echo $baseFunctions->version; ?>"></script>
+		<script src="/js/select2.min.js"></script>
+		<script src="/js/select-custom.js?v=<?php echo $baseFunctions->version; ?>"></script>
 	<?php endif ?>
 
 	<script>
@@ -177,7 +177,7 @@
 
 							$.ajax({
 								type:'post',
-								url:'<?php echo BASE_URL; ?>/ajax.php',
+								url:'/ajax.php',
 								data:{
 									ajxlogin: true,
 									ajxusr:ajxusr,
@@ -210,7 +210,7 @@
 
 							$.ajax({
 								type:'post',
-								url:'<?php echo BASE_URL; ?>/ajax.php',
+								url:'/ajax.php',
 								data:{
 									registerUser: true,
 									ajxregusrname: ajxregusrname,

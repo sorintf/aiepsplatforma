@@ -71,7 +71,7 @@
             <div class="modal-content">
 
                 <div class="modal-header text-center pt-5">
-                    <img src="<?php echo BASE_URL; ?>/images/loader.gif" alt="" class="" width="50">
+                    <img src="/images/loader.gif" alt="" class="" width="50">
                     <h2 class="modal-title w-100 font-weight-bold" id="waitModallTitle">Vă rugăm să aşteptaţi până când fişierul se va încărca!</h2>
                 </div>
 
@@ -90,7 +90,7 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header text-center pt-5">
-                    <img src="<?php echo BASE_URL; ?>/images/loader.gif" alt="" class="" width="50">
+                    <img src="/images/loader.gif" alt="" class="" width="50">
                     <h2 class="modal-title w-100 font-weight-bold" id="waitModalDownloadlTitle">Vă rugăm să aşteptaţi până când se va genera arhiva şi se va termina de downloadat fişierul!</h2>
                     <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
@@ -100,35 +100,35 @@
 
     <!-- Required Js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="<?php echo BASE_URL; ?>/admin_files/assets/js/plugins/popper.min.js"></script>
-    <script src="<?php echo BASE_URL; ?>/admin_files/assets/js/plugins/simplebar.min.js"></script>
-    <script src="<?php echo BASE_URL; ?>/admin_files/assets/js/plugins/bootstrap.min.js"></script>
-    <script src="<?php echo BASE_URL; ?>/admin_files/assets/js/fonts/custom-font.js"></script>
-    <script src="<?php echo BASE_URL; ?>/admin_files/assets/js/pcoded.js"></script>
-    <script src="<?php echo BASE_URL; ?>/admin_files/assets/js/plugins/feather.min.js"></script>
+    <script src="/admin_files/assets/js/plugins/popper.min.js"></script>
+    <script src="/admin_files/assets/js/plugins/simplebar.min.js"></script>
+    <script src="/admin_files/assets/js/plugins/bootstrap.min.js"></script>
+    <script src="/admin_files/assets/js/fonts/custom-font.js"></script>
+    <script src="/admin_files/assets/js/pcoded.js"></script>
+    <script src="/admin_files/assets/js/plugins/feather.min.js"></script>
 
     <?php if ($adminFunctions->dataTable): ?>
-        <script src="<?php echo BASE_URL; ?>/admin_files/assets/js/plugins/jquery.dataTables.min.js"></script>
-        <script src="<?php echo BASE_URL; ?>/admin_files/assets/js/plugins/dataTables.bootstrap5.min.js"></script>
-        <script src="<?php echo BASE_URL; ?>/admin_files/assets/js/custom.dataTables.js?v=<?php echo $adminFunctions->version; ?>"></script>
+        <script src="/admin_files/assets/js/plugins/jquery.dataTables.min.js"></script>
+        <script src="/admin_files/assets/js/plugins/dataTables.bootstrap5.min.js"></script>
+        <script src="/admin_files/assets/js/custom.dataTables.js?v=<?php echo $adminFunctions->version; ?>"></script>
     <?php endif ?>
 
     <?php if ($adminFunctions->tinyMce): ?>
-        <script src="<?php echo BASE_URL; ?>/admin_files/assets/js/plugins/tinymce/tinymce.min.js"></script>
-        <script src="<?php echo BASE_URL; ?>/admin_files/assets/js/custom.tinymce.js?v=<?php echo $adminFunctions->version; ?>"></script>
+        <script src="/admin_files/assets/js/plugins/tinymce/tinymce.min.js"></script>
+        <script src="/admin_files/assets/js/custom.tinymce.js?v=<?php echo $adminFunctions->version; ?>"></script>
     <?php endif ?>
 
     <?php if ($adminFunctions->pageSel2): ?>
-        <script src="<?php echo BASE_URL; ?>/admin_files/assets/js/plugins/select2.min.js"></script>
-        <script src="<?php echo BASE_URL; ?>/admin_files/assets/js/custom.select2.js?v=<?php echo $adminFunctions->version; ?>"></script>
+        <script src="/admin_files/assets/js/plugins/select2.min.js"></script>
+        <script src="/admin_files/assets/js/custom.select2.js?v=<?php echo $adminFunctions->version; ?>"></script>
     <?php endif ?>
 
     <?php if ($adminFunctions->lightbox): ?>
-        <script src="<?php echo BASE_URL; ?>/admin_files/assets/js/plugins/lightbox.bundle.min.js"></script>
+        <script src="/admin_files/assets/js/plugins/lightbox.bundle.min.js"></script>
     <?php endif ?>
 
     <?php if ($adminFunctions->fileUploader): ?>
-        <script src="<?php echo BASE_URL; ?>/admin_files/assets/js/plugins/uppy.min.js"></script>
+        <script src="/admin_files/assets/js/plugins/uppy.min.js"></script>
         <script>
           const Tus = Uppy.Tus;
           const DragDrop = Uppy.DragDrop;

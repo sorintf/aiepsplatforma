@@ -12,7 +12,7 @@
                     <div class="card-body">
                         <div class="d-flex align-items-center">
                             <div class="flex-shrink-0">
-                                <img src="<?php echo BASE_URL; ?>/admin_files/assets/images/user/avatar-1.jpg" alt="user-image" class="user-avtar wid-45 rounded-circle" />
+                                <img src="/admin_files/assets/images/user/avatar-1.jpg" alt="user-image" class="user-avtar wid-45 rounded-circle" />
                             </div>
 
                             <div class="flex-grow-1 ms-3 me-2">

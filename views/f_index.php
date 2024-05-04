@@ -17,7 +17,7 @@
 				</div>
 
 				<div class="wrap-img">
-					<img src="<?php echo BASE_URL; ?>/images/assets/placeholder-banner-img.png" alt="Aducem evoluția educațională în domeniul sănătății" class="">
+					<img src="/images/assets/placeholder-banner-img.png" alt="Aducem evoluția educațională în domeniul sănătății" class="">
 				</div>
 			</div>
 		</div>
@@ -32,16 +32,16 @@
 
 				<div class="partners-list row">
 					<div class="partner">
-						<img src="<?php echo BASE_URL.'/images/assets/logo-black-pfizer.png' ?>" alt="Pfizer" class="img">
+						<img src="/images/assets/logo-black-pfizer.png" alt="Pfizer" class="img">
 					</div>
 					<div class="partner">
-						<img src="<?php echo BASE_URL.'/images/assets/logo-black-johnson-and-johnson.png' ?>" alt="Johnson&Johnson" class="img">
+						<img src="/images/assets/logo-black-johnson-and-johnson.png" alt="Johnson&Johnson" class="img">
 					</div>
 					<div class="partner">
-						<img src="<?php echo BASE_URL.'/images/assets/logo-black-two-and-from.png' ?>" alt="Two&From" class="img">
+						<img src="/images/assets/logo-black-two-and-from.png" alt="Two&From" class="img">
 					</div>
 					<div class="partner">
-						<img src="<?php echo BASE_URL.'/images/assets/logo-black-stanford-university.png' ?>" alt="Standford University" class="img">
+						<img src="/images/assets/logo-black-stanford-university.png" alt="Standford University" class="img">
 					</div>
 				</div>
 			</div>
@@ -64,7 +64,7 @@
 				<div class="tab-pane fade show active" id="medicalTab" role="tabpanel" aria-labelledby="medical-tab-button">
 					<div class="row presentation">
 						<div class="img-column">
-							<img src="<?php echo BASE_URL; ?>/images/assets/placeholder-cw-presentation.png" alt="Medical Courses" class="img-fluid">
+							<img src="/images/assets/placeholder-cw-presentation.png" alt="Medical Courses" class="img-fluid">
 						</div>
 						<div class="text-column">
 							<div class="description">Cursuri medicale adaptate tuturor nivelurilor de cunoaștere, predate de experți în domeniu. Indiferent dacă ești la începutul carierei tale, vrei să te specializezi sau să explorezi noi perspective, ai ajuns în locul potrivit.</div>
@@ -76,7 +76,7 @@
 									&ldquo;Cursurile AIEPS m-au ajutat foarte mult sa ma specializez in cardiologie&rdquo;
 								</div>
 								<div class="author-info">
-									<img src="<?php echo BASE_URL.'/images/users/avatar-medic-cosmin-istrate.png' ?>" alt="" class="avatar">
+									<img src="/images/users/avatar-medic-cosmin-istrate.png" alt="" class="avatar">
 									<div class="author">
 										<div class="name">Cosmin Istrate</div>
 										<div class="title">Medic rezident</div>
@@ -99,7 +99,7 @@
 
 								<p class="course-title">Medical Device Regulation 2017/745 EU regulatory affairs.</p>
 								<div class="lector-info">
-									<img src="<?php echo BASE_URL.'/images/users/avatar-lector-magdalena-muntenescu.png' ?>" alt="" class="avatar">
+									<img src="/images/users/avatar-lector-magdalena-muntenescu.png" alt="" class="avatar">
 									<div class="text">
 										Lector, <span class="name">Magdalena Muntenescu</span>
 									</div>
@@ -118,7 +118,7 @@
 
 								<p class="course-title">Medical Device Regulation 2017/745 EU regulatory affairs.</p>
 								<div class="lector-info">
-									<img src="<?php echo BASE_URL.'/images/users/avatar-lector-magdalena-muntenescu.png' ?>" alt="" class="avatar">
+									<img src="/images/users/avatar-lector-magdalena-muntenescu.png" alt="" class="avatar">
 									<div class="text">
 										Lector, <span class="name">Magdalena Muntenescu</span>
 									</div>
@@ -137,7 +137,7 @@
 
 								<p class="course-title">Medical Device Regulation 2017/745 EU regulatory affairs.</p>
 								<div class="lector-info">
-									<img src="<?php echo BASE_URL.'/images/users/avatar-lector-magdalena-muntenescu.png' ?>" alt="" class="avatar">
+									<img src="/images/users/avatar-lector-magdalena-muntenescu.png" alt="" class="avatar">
 									<div class="text">
 										Lector, <span class="name">Magdalena Muntenescu</span>
 									</div>
@@ -156,7 +156,7 @@
 
 								<p class="course-title">Medical Device Regulation 2017/745 EU regulatory affairs.</p>
 								<div class="lector-info">
-									<img src="<?php echo BASE_URL.'/images/users/avatar-lector-magdalena-muntenescu.png' ?>" alt="" class="avatar">
+									<img src="/images/users/avatar-lector-magdalena-muntenescu.png" alt="" class="avatar">
 									<div class="text">
 										Lector, <span class="name">Magdalena Muntenescu</span>
 									</div>
@@ -183,7 +183,7 @@
 							<p class="course-category">Farmaceutic</p>
 							<p class="course-title">Strategic Medical Affairs for Modern Pharma</p>
 							<div class="lector-info">
-								<img src="<?php echo BASE_URL.'/images/users/avatar-lector-adrian-popescu.png' ?>" alt="" class="avatar">
+								<img src="/images/users/avatar-lector-adrian-popescu.png" alt="" class="avatar">
 								<div class="text">
 									Lector, <span class="name">Adrian Popescu</span>
 								</div>
@@ -206,7 +206,7 @@
 							<p class="course-category">Farmaceutic</p>
 							<p class="course-title">Medical Device Regulation 2017/745 EU regulatory affairs.</p>
 							<div class="lector-info">
-								<img src="<?php echo BASE_URL.'/images/users/avatar-lector-mariana-dumitru.png' ?>" alt="" class="avatar">
+								<img src="/images/users/avatar-lector-mariana-dumitru.png" alt="" class="avatar">
 								<div class="text">
 									Lector, <span class="name">Mariana Dumitru</span>
 								</div>
@@ -229,7 +229,7 @@
 							<p class="course-category">Farmaceutic</p>
 							<p class="course-title">Practical Regulatory Affairs 2020 - European Medical Devices</p>
 							<div class="lector-info">
-								<img src="<?php echo BASE_URL.'/images/users/avatar-lector-mihai-enulescu.png' ?>" alt="" class="avatar">
+								<img src="/images/users/avatar-lector-mihai-enulescu.png" alt="" class="avatar">
 								<div class="text">
 									Lector, <span class="name">Mihai Enulescu</span>
 								</div>
@@ -252,7 +252,7 @@
 							<p class="course-category">Farmaceutic</p>
 							<p class="course-title">Medical Device Regulation 2017/745 EU regulatory affairs.</p>
 							<div class="lector-info">
-								<img src="<?php echo BASE_URL.'/images/users/avatar-lector-mariana-dumitru.png' ?>" alt="" class="avatar">
+								<img src="/images/users/avatar-lector-mariana-dumitru.png" alt="" class="avatar">
 								<div class="text">
 									Lector, <span class="name">Mariana Dumitru</span>
 								</div>
@@ -289,7 +289,7 @@
 								<div class="card-top">
 									<p class="course-title">What You Should Know About the QALY and About the Value of Health/QALY Gains with New Therapies</p>
 									<div class="lector-info">
-										<img src="<?php echo BASE_URL.'/images/users/avatar-lector-adrian-popescu.png' ?>" alt="" class="avatar">
+										<img src="/images/users/avatar-lector-adrian-popescu.png" alt="" class="avatar">
 										<div class="text">
 											Lector, <span class="name">Adrian Popescu</span>
 										</div>
@@ -343,7 +343,7 @@
 								<div class="card-top">
 									<p class="course-title">Writing Stability Reports for Regulatory Submissions & A Comprehensive Review of cGMP Requirements for Records and Reports</p>
 									<div class="lector-info">
-										<img src="<?php echo BASE_URL.'/images/users/avatar-lector-mariana-dumitru.png' ?>" alt="" class="avatar">
+										<img src="/images/users/avatar-lector-mariana-dumitru.png" alt="" class="avatar">
 										<div class="text">
 											Lector, <span class="name">Mariana Dumitru</span>
 										</div>
