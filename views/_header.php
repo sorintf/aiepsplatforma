@@ -1,8 +1,4 @@
-<?php 
-	/**
-		* T&F
-	*/ 
-?>
+
 
 	<header>
 		<nav class="navbar navbar-expand-lg navbar-light bg-transparent">

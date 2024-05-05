@@ -1,8 +1,4 @@
-<?php 
-	/**
-		* T&F
-	*/ 
-?>
+
 <div class="acc-nav">
 	<div class="container">
 		<ul class="nav">

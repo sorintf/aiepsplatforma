@@ -1,13 +1,4 @@
-<?php 
-	/**
-		* T&F
-	*/ 
-?>
-<?php 
-	/**
-	 	* will use Ajax
-	*/
-?>
+
 <?php include_once('views/_head.php') ?>
 
 <?php include_once('views/_header.php') ?>

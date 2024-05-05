@@ -1,8 +1,4 @@
-<?php 
-	/**
-		* T&F
-	*/ 
-?>
+
 <!DOCTYPE html>
 <html lang="ro">
 

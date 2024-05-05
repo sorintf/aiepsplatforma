@@ -1,8 +1,4 @@
-<?php 
-	/**
-		* T&F
-	*/ 
-?>
+
     <footer class="pc-footer">
         <div class="footer-wrapper container-fluid">
             <div class="row">

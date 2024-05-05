@@ -1,8 +1,4 @@
-<?php 
-	/**
-		* T&F
-	*/ 
-?>
+
 	<footer id="footer">
 		<div class="container">
 			<div class="footer-menus row">

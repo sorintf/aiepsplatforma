@@ -1,8 +1,4 @@
-<?php 
-	/**
-		* T&F
-	*/ 
-?>
+
     <!-- [ Sidebar Menu ] start -->
     <nav class="pc-sidebar">
         <div class="navbar-wrapper">

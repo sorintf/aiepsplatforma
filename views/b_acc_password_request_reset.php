@@ -1,8 +1,4 @@
-<?php 
-	/**
-		* T&F
-	*/ 
-?>
+
 <?php include_once('views/_head.php') ?>
 
 <?php include_once('views/_header.php') ?>
