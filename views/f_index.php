@@ -557,40 +557,90 @@
                     <div class="col col-lg-8">
                         <div class="povesti">
                             <h2 class="section-title">Povesti de succes</h2>
-                            <div class="accordion" id="accordionExample">
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header">
-                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                            Accordion Item #1
-                                        </button>
-                                    </h2>
-                                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            <div class="acc" id="accPovesti">
+                                <div class="acc-item">
+                                    <div id="accPov1" class="acc-collapse collapse show" data-bs-parent="#accPovesti">
+                                        <div class="acc-body">
+                                            <blockquote class="">
+                                                If you invest in your education and build your skills, you will see major growth in your career. Just a few months after I began investing in myself, my life has changed in the best way.
+                                            </blockquote>
+                                            <div class="card-curs v0">
+                                                <p class="course-category">Curs favorit</p>
+                                                <p class="course-title">Strategic Medical Affairs for Modern Pharma</p>
+                                                <div class="lector-info">
+                                                    <img src="/images/users/avatar-lector-magdalena-muntenescu.png" alt="" class="avatar">
+                                                    <div class="text">
+                                                        Lector, <span class="name">Magdalena Muntenescu</span>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                            Accordion Item #2
-                                        </button>
-                                    </h2>
-                                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                <div class="acc-item">
+                                    <div id="accPov2" class="acc-collapse collapse" data-bs-parent="#accPovesti">
+                                        <div class="acc-body">
+                                            <blockquote class="">
+                                                Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+                                            </blockquote>
+                                            <div class="card-curs v0">
+                                                <p class="course-category">Curs favorit</p>
+                                                <p class="course-title">Strategic Medical Affairs for Modern Pharma</p>
+                                                <div class="lector-info">
+                                                    <img src="/images/users/avatar-lector-magdalena-muntenescu.png" alt="" class="avatar">
+                                                    <div class="text">
+                                                        Lector, <span class="name">Magdalena Muntenescu</span>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                            Accordion Item #3
-                                        </button>
-                                    </h2>
-                                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                <div class="acc-item">
+                                    <div id="accPov3" class="acc-collapse collapse" data-bs-parent="#accPovesti">
+                                        <div class="acc-body">
+                                            <blockquote class="">
+                                                Test Test TestTest Test TestTest Test TestTest Test TestTest Test TestTest Test TestTest Test TestTest Test TestTest Test TestTest Test TestTest Test Test
+                                            </blockquote>
+                                            <div class="card-curs v0">
+                                                <p class="course-category">Curs favorit</p>
+                                                <p class="course-title">Strategic Medical Affairs for Modern Pharma</p>
+                                                <div class="lector-info">
+                                                    <img src="/images/users/avatar-lector-magdalena-muntenescu.png" alt="" class="avatar">
+                                                    <div class="text">
+                                                        Lector, <span class="name">Magdalena Muntenescu</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="acc-buttons">
+                                <div class="acc-button" type="button" data-bs-toggle="collapse" data-bs-target="#accPov1" aria-expanded="true" aria-controls="collapseOne">
+                                    <div class="author-info">
+                                        <img src="/images/users/avatar-medic-cosmin-istrate.png" alt="" class="avatar">
+                                        <div class="author">
+                                            <div class="name">Alexandra A.</div>
+                                            <div class="title">Farmacist</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="acc-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accPov2" aria-expanded="false" aria-controls="collapseTwo">
+                                    <div class="author-info">
+                                        <img src="/images/users/avatar-medic-cosmin-istrate.png" alt="" class="avatar">
+                                        <div class="author">
+                                            <div class="name">Gabriel S.</div>
+                                            <div class="title">Farmacist</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="acc-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accPov3" aria-expanded="false" aria-controls="collapseTwo">
+                                    <div class="author-info">
+                                        <img src="/images/users/avatar-medic-cosmin-istrate.png" alt="" class="avatar">
+                                        <div class="author">
+                                            <div class="name">Luiza C.</div>
+                                            <div class="title">Farmacist</div>
                                         </div>
                                     </div>
                                 </div>
