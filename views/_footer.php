@@ -100,16 +100,16 @@
 
 				<div class="partners-list row">
 					<div class="partner">
-						<img src="<?php echo BASE_URL.'/images/assets/logo-white-pfizer.png' ?>" alt="Pfizer" class="img">
+						<img src="/images/assets/logo-white-pfizer.png" alt="Pfizer" class="img">
 					</div>
 					<div class="partner">
-						<img src="<?php echo BASE_URL.'/images/assets/logo-white-johnson-and-johnson.png' ?>" alt="Johnson&Johnson" class="img">
+						<img src="/images/assets/logo-white-johnson-and-johnson.png" alt="Johnson&Johnson" class="img">
 					</div>
 					<div class="partner">
-						<img src="<?php echo BASE_URL.'/images/assets/logo-white-two-and-from.png' ?>" alt="Two&From" class="img">
+						<img src="/images/assets/logo-white-two-and-from.png" alt="Two&From" class="img">
 					</div>
 					<div class="partner">
-						<img src="<?php echo BASE_URL.'/images/assets/logo-white-stanford-university.png' ?>" alt="Standford University" class="img">
+						<img src="/images/assets/logo-white-stanford-university.png" alt="Standford University" class="img">
 					</div>
 				</div>
 			</div>

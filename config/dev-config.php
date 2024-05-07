@@ -1,6 +1,7 @@
 <?php
 ini_set('session.cookie_httponly', 1);
 ini_set('session.cookie_secure', 1);
+ini_set('opcache.enable', 0);
 
 session_start();
 error_reporting(E_ALL);
