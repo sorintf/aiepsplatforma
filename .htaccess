@@ -17,6 +17,9 @@ ErrorDocument 404 http://localhost/aieps/www/404
 RewriteRule ^404$ incarca.php?view=f_404 [NC,L]
 
 
+RewriteRule ^toate-cursurile(/)?$ incarca.php?view=f_courses_list [NC,L]
+RewriteRule ^cursuri/medical(/)?$ incarca.php?view=f_courses_list_medical [NC,L]
+
 #RewriteRule ^XXXXXXXXXXXX$ YYYYYYYYYY [NC,L]
 #RewriteRule ^XXXXXXXXXXXX$ YYYYYYYYYY [NC,L]
 #RewriteRule ^XXXXXXXXXXXX$ YYYYYYYYYY [NC,L]

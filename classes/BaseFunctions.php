@@ -6,7 +6,7 @@
 <?php
 class BaseFunctions
 {
-    public $version = "f4w";
+    public $version = "f4y";
     protected $db_connection = NULL;
 
     public $ID = NULL;
@@ -31,6 +31,7 @@ class BaseFunctions
     public $redirect = "";
     public $view = "f_index";
     public $lang = "ro";
+    public $breadCrumb = array();
 
     public $now = "";
 
@@ -502,6 +503,13 @@ class BaseFunctions
 
             $this->page_title = "Two & From - CMS";
             $this->page_description = "Atinge întregul potențial al organzației tale";
+        }elseif ($this->view=="f_courses_list") {
+
+            $this->page_title = "Two & From - CMS";
+            $this->page_description = "Atinge întregul potențial al organzației tale";
+
+            $this->breadCrumb[] = array('active'=>"", 'url'=>"/", 'text'=>"Acasa");
+            $this->breadCrumb[] = array('active'=>"active", 'url'=>"/", 'text'=>"Acasa");
         }elseif ($this->view=="f_about") {
 
             $this->pageSel2 = true;
@@ -528,16 +536,6 @@ class BaseFunctions
             $this->pageSel2 = true;
             $this->page_title = "ORA - Servicii";
             $this->page_description = "Servicii de managementul riscului și inteligența în afaceri";
-        }elseif ($this->view=="f_generate_view") {
-            $args = array();
-            if (isset($_GET['hash'])) {
-                $args['hash'] = trim(htmlspecialchars($_GET['hash']));
-            }else{
-                $args['hash'] = "";
-            }
-
-            $this->filesGenerateFileView($args);
-        }elseif ($this->view=="f_generate_download") {
         }
     }
 
@@ -2261,6 +2259,9 @@ class BaseFunctions
             case 'f_index':
                 $result = ($lang=="ro")?"/":"/en/";
                 $result = "/incarca.php?view=".$view;
+                break;
+            case 'f_courses_list':
+                $result = "/toate-cursurile";
                 break;
             
             default:

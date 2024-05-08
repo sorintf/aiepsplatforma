@@ -67,6 +67,36 @@ a:hover {
 .link:hover {
     color: rgba(var(--aieps-blue-rgb), 0.8);
 }
+.link-card {
+    display: flex;
+    flex-direction: column;
+    padding: 23px 64px 23px 31px;
+    background-color: rgba(var(--aieps-paleblue-rgb), 1.0);
+    background-repeat: no-repeat;
+    background-size: 34px 17px;
+    background-position: right 15px center;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 19 37' fill='none' stroke='%230E52D7' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' %3e%3cpath d='M0.999999 1.79077L18 18.7908L1 35.7908'/%3e%3c/svg%3e");
+}
+.link-card:hover {
+    background-color: rgba(var(--aieps-pale-bg-rgb), 0.8);
+}
+.link-card .title {
+    display: block;
+    color: var(--aieps-dark);
+    font-family: var(--aieps-font-title);
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 43.2px;
+    margin-bottom: 0;
+}
+.link-card .count {
+    color: var(--aieps-greyblue);
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25.2px;
+    margin-bottom: 0;
+}
 
 body{
     font-family: var(--aieps-font-body);
@@ -106,9 +136,14 @@ ul.check li:before {
 .page-title {
     font-family: var(--aieps-font-title);
     font-weight: 400;
-    font-size: 52px;
-    line-height: 1.15;
+    font-size: 60px;
+    line-height: 69px;
     margin-bottom: 54px;
+}
+.page-title.s02 {
+    font-size: 52px;
+    line-height: 62.4px;
+    margin-bottom: 0;
 }
 .category-main {
     font-family: var(--aieps-font-body);
@@ -152,10 +187,15 @@ ul.check li:before {
     line-height: 26.1px;
     margin-bottom: 25px;
 }
+.b01 .section-subtitle {
+    line-height: 25.2px;
+    margin-bottom: 24px;
+}
 .acc-main .section-title {
     font-size: 32px;
     margin-bottom: 10px;
 }
+
 .section-description {
     font-size: 18px;
     margin-bottom: 25px;
@@ -1387,3 +1427,8 @@ blockquote::before {
 .resources {
     padding: 40px 0 80px 0;
 }
+
+
+
+
+

@@ -47,6 +47,9 @@
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="navbar-nav ms-0 me-auto mb-2 mb-lg-0">
 						<li class="nav-item">
+							<a href="/toate-cursurile" class="nav-link">Toate cursurile</a>
+						</li>
+						<li class="nav-item">
 							<a href="<?php echo $baseFunctions->buildUrl(array('view'=>"f_about")); ?>" class="nav-link">Răsfoiește</a>
 						</li>
 					</ul>
