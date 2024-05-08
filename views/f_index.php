@@ -654,37 +654,289 @@
         <div class="section categories">
             <div class="container">
 				<h2 class="section-title">Învață după categorie</h2>
+				<div class="section-sub-title">Avem materiale de specialitate medicala dar si farmaceutica</div>
+				<hr>
+
+				<h3 class="category-main">Farmacie</h3>
+				<div class="row category-links">
+					<div class="col col-lg-3">
+						<div class="category">
+							<a href="#" class="category-name">Farmacie generală</a>
+							<p class="category-count">14 Lecții</p>
+						</div>
+					</div>
+
+					<div class="col col-lg-3">
+						<div class="category">
+							<a href="#" class="category-name">Farmacie clinică</a>
+							<p class="category-count">34 Lecții</p>
+						</div>
+					</div>
+
+					<div class="col col-lg-3">
+						<div class="category">
+							<a href="#" class="category-name">Farmaceutică și cosmetică</a>
+							<p class="category-count">16 Lecții</p>
+						</div>
+					</div>
+
+					<div class="col col-lg-3">
+						<div class="category">
+							<a href="#" class="category-name">Medico-farmaceutice de laborator</a>
+							<p class="category-count">22 Lecții</p>
+						</div>
+					</div>
+				</div>
+				<hr>
+
+				<h3 class="">Medical</h3>
+				<div class="row category-links">
+					<div class="col col-lg-3">
+						<div class="category">
+							<a href="#" class="category-name">Alergologie si imunologie</a>
+							<p class="category-count">14 Lecții</p>
+						</div>
+					</div>
+
+					<div class="col col-lg-3">
+						<div class="category">
+							<a href="#" class="category-name">Asistent medical</a>
+							<p class="category-count">34 Lecții</p>
+						</div>
+					</div>
+
+					<div class="col col-lg-3">
+						<div class="category">
+							<a href="#" class="category-name">Chirurgie generala</a>
+							<p class="category-count">16 Lecții</p>
+						</div>
+					</div>
+
+					<div class="col col-lg-3">
+						<div class="category">
+							<a href="#" class="category-name">Endocrinologie</a>
+							<p class="category-count">22 Lecții</p>
+						</div>
+					</div>
+
+					<div class="col col-lg-3">
+						<div class="category">
+							<a href="#" class="category-name">Anatomie patologica</a>
+							<p class="category-count">14 Lecții</p>
+						</div>
+					</div>
+
+					<div class="col col-lg-3">
+						<div class="category">
+							<a href="#" class="category-name">Boli infectioase</a>
+							<p class="category-count">34 Lecții</p>
+						</div>
+					</div>
+
+					<div class="col col-lg-3">
+						<div class="category">
+							<a href="#" class="category-name">Dermatovenerologie</a>
+							<p class="category-count">16 Lecții</p>
+						</div>
+					</div>
+
+					<div class="col col-lg-3">
+						<div class="category">
+							<a href="#" class="category-name">Epidemiologie</a>
+							<p class="category-count">22 Lecții</p>
+						</div>
+					</div>
+
+					<div class="col col-lg-3">
+						<div class="category">
+							<a href="#" class="category-name">Anestezie si terapie intensiva</a>
+							<p class="category-count">14 Lecții</p>
+						</div>
+					</div>
+
+					<div class="col col-lg-3">
+						<div class="category">
+							<a href="#" class="category-name">Cardiologie</a>
+							<p class="category-count">34 Lecții</p>
+						</div>
+					</div>
+
+					<div class="col col-lg-3">
+						<div class="category">
+							<a href="#" class="category-name">Diabet zaharat, nutritie</a>
+							<p class="category-count">16 Lecții</p>
+						</div>
+					</div>
+
+					<div class="col col-lg-3">
+						<div class="category">
+							<a href="#" class="category-name">Gastroenterologie</a>
+							<p class="category-count">22 Lecții</p>
+						</div>
+					</div>
+				</div>
+				<hr>
+
+				<a href="#" class="btn btn-outline-dark">+ Vezi încă 18</a>
 			</div>
 		</div>
 	</div>
 
-	<div class="section bg-pale companies">
+	<div class="section bg-pale for-companies">
 		<div class="container">
-			<h2 class="section-title">Imbunătățiți-vă Afacerea cu Soluțiile de Formare AIEPS</h2>
+			<div class="row">
+				<div class="col col-lg-5">
+					<div class="text-wrap">
+						<h2 class="section-title">Îmbunătățiți-vă Afacerea cu Soluțiile de Formare AIEPS</h2>
+						<div class="section-sub-title">Îmbunătățiți competențele echipei și stimulați dezvoltarea afacerii cu soluțiile de formare AIEPS</div>
+						<a href="#" class="btn btn-primary">AIEPS pentru companii</a>
+						<hr>
+						<figure>
+							<blockquote class="blockquote-company">
+								“Echipele noastre participa periodic la cursuri si webinarii AIEPS, suntem extrem de multumiti de rezultate”
+							</blockquote>
+
+							<figcaption class="blockquote-company-footer">
+								<div class="author-info">
+									<div class="author">
+										<div class="name">Mariana Dumitru</div>
+										<div class="title">Regional manager</div>
+									</div>
+									<div class="logo">
+										<img src="/images/assets/logo-black-pfizer.png" alt="Logo Pfizer" class="logo">
+									</div>
+								</div>
+							</figcaption>
+						</figure>
+					</div>
+				</div>
+
+				<div class="col col-lg-auto">
+					<div class="img-wrap">
+						<div class="img-01">
+							<img src="/images/assets/placeholder-business-01.png" alt="Îmbunătățiți-vă Afacerea 01" class="img-fluid">
+						</div>
+						<div class="img-02">
+							<img src="/images/assets/placeholder-business-02.png" alt="Îmbunătățiți-vă Afacerea 01" class="img-fluid">
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 
-	<div class="section comunity">
+	<div class="section for-comunity">
 		<div class="container">
-			<h2 class="section-title">Alaturate unei comunitatii de experti, devino lector AIPES</h2>
+			<div class="row">
+				<div class="col col-lg-5">
+					<div class="img-wrap">
+						<div class="img-01">
+							<img src="/images/assets/placeholder-comunity-01.png" alt="Alaturate unei comunitatii de experti" class="img-fluid">
+						</div>
+					</div>
+				</div>
+
+				<div class="col col-lg-5">
+					<div class="text-wrap">
+						<h2 class="section-title">Alaturate unei comunitatii de experti, devino lector AIEPS</h2>
+						<div class="section-sub-title">Conectează-te, împărtășește cunoștințele tale, merită și e mai simplu decât crezi.</div>
+						<a href="#" class="btn btn-primary">Devino lector</a>
+						<hr>
+						<figure>
+							<blockquote class="blockquote-company">
+								“Găsesc o imensă plăcere în a îmi împărtăși cunoștiintele, rămân recunoscător echipei AIEPS”
+							</blockquote>
+
+							<figcaption class="blockquote-company-footer">
+								<div class="author-info">
+									<img src="/images/users/avatar-medic-cosmin-istrate.png" alt="" class="avatar">
+									<div class="author">
+										<div class="name">Marian Mircea</div>
+										<div class="title">Profesor universitar</div>
+									</div>
+								</div>
+							</figcaption>
+						</figure>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 
-	<div class="section bg-pale health">
+	<div class="section bg-pale health-system">
 		<div class="container">
-			<h2 class="section-title">Construim cu încredere viitorul sistemului de sănătate</h2>
+			<div class="row">
+				<div class="col col-lg-4">
+					<h2 class="section-title">Construim cu încredere viitorul sistemului de sănătate</h2>
+					<p class="section-sub-title">Platforma modernă și dinamică care transformă sistemul medical prin tehnologie de vârf, soluții inovatoare și reunirea profesioniștilor renumiți.</p>
+					<a href="#" class="btn btn-outline-blue">Află mai multe</a>
+				</div>
+				<div class="col col-lg-4">
+					<img src="/images/assets/placeholder-health-01.png" alt="Sistemul de sănătate" class="img-fluid">
+				</div>
+				<div class="col col-lg-4">
+					<img src="/images/assets/placeholder-health-02.png" alt="Sistemul de sănătate" class="img-fluid">
+				</div>
+			</div>
+			
 		</div>
 	</div>
 
 	<div class="section academy">
 		<div class="container">
-			<h2 class="section-title">E timpul să te alături Academiei AIEPS</h2>
+			<div class="content">
+				<img src="/images/assets/bg-academy.png" alt="Academia AIEPS" class="bg-img">
+
+ 				<div class="card card-01">
+					<h2 class="section-title">E timpul să te alături Academiei AIEPS</h2>
+					<div class="section-sub-title">Acordă un boost carierei tale.</div>
+					<a href="#" class="btn btn-primary">Inscrie-te acum</a>
+				</div>
+			</div>
 		</div>
 	</div>
 
 	<div class="section resources">
 		<div class="container">
 			<h2 class="section-title">Resurse și știri din domeniu</h2>
+			<div class="section-sub-title">Ești la curent cu actualitățile remarcabile din medicină</div>
+
+			<div class="row">
+				<div class="col col-lg-3">
+					<div class="card card-news">
+						<img src="/images/assets/placeholder-news-thumbs-01.png" alt="" class="img-fluid">
+						<p class="news-date">20 Martie, 2024</p>
+						<a href="#" class="news-title">How brain health at midlife may help predict cognitive decline...</a>
+					</div>
+				</div>
+				<div class="col col-lg-3">
+					<div class="card card-news">
+						<img src="/images/assets/placeholder-news-thumbs-02.png" alt="" class="img-fluid">
+						<p class="news-date">20 Martie, 2024</p>
+						<a href="#" class="news-title">Sustainable Practices in Pharmaceutical Manufacturing</a>
+					</div>
+				</div>
+				<div class="col col-lg-3">
+					<div class="card card-news">
+						<img src="/images/assets/placeholder-news-thumbs-03.png" alt="" class="img-fluid">
+						<p class="news-date">20 Martie, 2024</p>
+						<a href="#" class="news-title">Understanding genetic testing for hereditary cancer diagnosis</a>
+					</div>
+				</div>
+				<div class="col col-lg-3">
+					<div class="card card-news">
+						<img src="/images/assets/placeholder-news-thumbs-04.png" alt="" class="img-fluid">
+						<p class="news-date">20 Martie, 2024</p>
+						<a href="#" class="news-title">Mental Health Support Strategies for Healthcare Workers</a>
+					</div>
+				</div>
+			</div>
+			<hr>
+
+			<div class="wrap-buttons">
+				<a href="#" class="btn btn-outline-dark">+ Arată încă 4</a>
+				<a href="#" class="btn btn-dark">Vezi toate</a>
+			</div>
 		</div>
 	</div>
 
