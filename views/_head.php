@@ -58,6 +58,11 @@
 		<link href="/css/select2.min.css" rel="stylesheet">
 	<?php endif ?>
 
+    <?php if ($baseFunctions->slick): ?>
+        <link href="/slick/slick.css" rel="stylesheet">
+        <link href="/slick/slick-theme.css" rel="stylesheet">
+    <?php endif ?>
+
 	<link href="/css/main.css?v=<?php echo $baseFunctions->version; ?>" rel="stylesheet">
 </head>
 

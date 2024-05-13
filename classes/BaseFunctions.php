@@ -6,7 +6,7 @@
 <?php
 class BaseFunctions
 {
-    public $version = "f4y";
+    public $version = "f4h";
     protected $db_connection = NULL;
 
     public $ID = NULL;
@@ -70,6 +70,7 @@ class BaseFunctions
     public $pageSel2 = false;
     public $dataTable = false;
     public $fileUploader = false;
+	public $slick = false;
 
     public $page_title = "Two & From - CMS";
     public $page_description = "Atinge întregul potențial al organzației tale";
@@ -504,12 +505,13 @@ class BaseFunctions
             $this->page_title = "Two & From - CMS";
             $this->page_description = "Atinge întregul potențial al organzației tale";
         }elseif ($this->view=="f_courses_list") {
+			$this->slick = true;
 
             $this->page_title = "Two & From - CMS";
             $this->page_description = "Atinge întregul potențial al organzației tale";
 
             $this->breadCrumb[] = array('active'=>"", 'url'=>"/", 'text'=>"Acasa");
-            $this->breadCrumb[] = array('active'=>"active", 'url'=>"/", 'text'=>"Acasa");
+            $this->breadCrumb[] = array('active'=>"active", 'url'=>"/", 'text'=>"Toate cursurile");
         }elseif ($this->view=="f_about") {
 
             $this->pageSel2 = true;

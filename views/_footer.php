@@ -144,6 +144,11 @@
 		<script src="/js/select-custom.js?v=<?php echo $baseFunctions->version; ?>"></script>
 	<?php endif ?>
 
+    <?php if ($baseFunctions->slick): ?>
+        <script src="/slick/slick.js"></script>
+        <script src="/slick/slick-custom.js?v=<?php echo $baseFunctions->version; ?>"></script>
+    <?php endif ?>
+
 	<script>
 		(() => {
 			'use strict'
