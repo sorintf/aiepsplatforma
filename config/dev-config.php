@@ -28,9 +28,11 @@ define("COOKIE_SECRET_KEY", "IdNpXTMHLKUOSDSkhjda9831JKLHA89731");
 define("MJ_APIKEY_PUBLIC", "e4ff6ce5696f0af969ec687f2faec7bb");
 define("MJ_APIKEY_PRIVATE", "6c70928056b736e2b2e2a75f93288b20");
 define("MJ_MANAGE_CONTACT", 10374502);
-define("MJ_URL", "http://localhost/aieps/www/aiepsplatforma/send_emails.php");
+#define("MJ_URL", "http://localhost/aieps/www/aiepsplatforma/send_emails.php");
+define("MJ_URL", "https://aieps.twoandfrom.com/send_emails.php");
 
-define("BASE_URL", "http://localhost/aieps/www/aiepsplatforma"); // probabily better to do it some other way
+#define("BASE_URL", "http://localhost/aieps/www/aiepsplatforma"); // probabily better to do it some other way
+define("BASE_URL", "https://aieps.twoandfrom.com");
 define("PLATFORM_NAME", "AIEPS platforma"); // probabily better to do it some other way
 define("USER_REGISTRATION", "auto");
 define("USER_AUTO_LOGIN", true);

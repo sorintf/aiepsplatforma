@@ -6,7 +6,7 @@
 <?php
 class BaseFunctions
 {
-    public $version = "f4h";
+    public $version = "f4l";
     protected $db_connection = NULL;
 
     public $ID = NULL;

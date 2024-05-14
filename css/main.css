@@ -1446,5 +1446,37 @@ blockquote::before {
 
 
 
-
-
+.slick-dots li {
+    width: 97px;
+}
+.slick-dots li button {
+    width: 97px;
+}
+.slick-dots li button:before {
+    content: '';
+    width: 97px;
+    height: 3px;
+    background-color: var(--aieps-dark);
+}
+.slick-dots li.slick-active button:before {
+    opacity: 1;
+    background-color: var(--aieps-blue);
+}
+.slick-prev, .slick-next {
+    width: 17px;
+    height: 34px;
+}
+.slick-prev:before,
+.slick-next:before {
+    content: '';
+    display: block;
+    width: 17px;
+    height: 34px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 36' fill='none' stroke='%23000000' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' %3e%3cpath d='M1.5 0.992433L18.5 17.9924L1.5 34.9924'/%3e%3c/svg%3e");
+}
+.slick-prev:before {
+    transform: rotate(180deg);
+}
